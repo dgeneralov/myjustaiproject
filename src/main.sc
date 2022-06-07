@@ -18,3 +18,10 @@ theme: /
         event!: noMatch
         a: Я не понял. Вы сказали: {{$request.query}}
 
+    state: kek
+        intent!: /кек
+        a: чебурек
+        
+    state: name
+        intent!: /whots you name?
+        a: hiy hiy
